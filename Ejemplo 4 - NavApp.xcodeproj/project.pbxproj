@@ -10,6 +10,7 @@
 		5B04159728C2BBA000F1C35B /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04159628C2BBA000F1C35B /* FavoritesViewController.swift */; };
 		5B04159928C2BBB100F1C35B /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04159828C2BBB100F1C35B /* HelpViewController.swift */; };
 		5B04159B28C2BE4C00F1C35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B04159A28C2BE4B00F1C35B /* Assets.xcassets */; };
+		5B0415A428C3A82A00F1C35B /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 5B0415A328C3A82A00F1C35B /* Data */; };
 		5BFB4EC328C2ABA70049C238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB4EC228C2ABA70049C238 /* AppDelegate.swift */; };
 		5BFB4EC528C2ABA70049C238 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB4EC428C2ABA70049C238 /* SceneDelegate.swift */; };
 		5BFB4EC728C2ABA70049C238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB4EC628C2ABA70049C238 /* ViewController.swift */; };
@@ -24,6 +25,9 @@
 		5B04159628C2BBA000F1C35B /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		5B04159828C2BBB100F1C35B /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		5B04159A28C2BE4B00F1C35B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		5B0415A128C39EC500F1C35B /* CustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		5B0415A228C39EC700F1C35B /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		5B0415A328C3A82A00F1C35B /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Data; path = ../../../../../Downloads/Data; sourceTree = "<group>"; };
 		5BFB4EBF28C2ABA70049C238 /* Ejemplo 4 - NavApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejemplo 4 - NavApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BFB4EC228C2ABA70049C238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BFB4EC428C2ABA70049C238 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B04159C28C39DFD00F1C35B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B0415A128C39EC500F1C35B /* CustomUIView.swift */,
+				5B0415A228C39EC700F1C35B /* CustomImageView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		5BFB4EB628C2ABA70049C238 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +79,8 @@
 		5BFB4EC128C2ABA70049C238 /* Ejemplo 4 - NavApp */ = {
 			isa = PBXGroup;
 			children = (
+				5B0415A328C3A82A00F1C35B /* Data */,
+				5B04159C28C39DFD00F1C35B /* Utils */,
 				5BFB4EC228C2ABA70049C238 /* AppDelegate.swift */,
 				5BFB4EC428C2ABA70049C238 /* SceneDelegate.swift */,
 				5BFB4EC628C2ABA70049C238 /* ViewController.swift */,
@@ -142,6 +157,7 @@
 			files = (
 				5BFB4ECF28C2ABA90049C238 /* LaunchScreen.storyboard in Resources */,
 				5B04159B28C2BE4C00F1C35B /* Assets.xcassets in Resources */,
+				5B0415A428C3A82A00F1C35B /* Data in Resources */,
 				5BFB4ECA28C2ABA70049C238 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
